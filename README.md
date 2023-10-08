@@ -6,10 +6,15 @@ Write C program to illustrate IPC using pipes mechanisms
 ## ALGORITHM:
 
 1.Create a child process usingfork()
+
 2.Create a simple pipe with C, we make use of the pipe() systemcall.
+
 3.Create two file descriptor fd[0] is set up for reading, fd[1] isset up forwriting
+
 4.Close the read end of parent process using close() and perform writeoperation
+
 5.Close the write end of child process and performreading
+
 6.Display the text.
 
 ## PROGRAM:
